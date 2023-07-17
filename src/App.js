@@ -1,25 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import Button1 from './components/Button1'
+import Button2 from './components/Button2'
+import StyledComponent from './StyledComponent'
+import TailwindComponent from './TailwindComponent'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+function App(){
+    return (
+        <>
+            <Button1 />
+            <Button2 />
+            <StyledComponent />
+            <TailwindComponent/>
+        </>
+    )
 }
 
 export default App;
